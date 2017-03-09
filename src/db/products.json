@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Angular T-Shirt",
+    "price": 2499,
+    "popular": false,
+    "rating": 4,
+    "img": "https://raw.githubusercontent.com/victormejia/victormejia.github.io/master/assets/images/ngshirt.png"
+  },
+  {
+    "title": "Comfy Hoodie",
+    "price": 3000,
+    "popular": true,
+    "rating": 4,
+    "img": "../assets/img/ng-hoodie.png"
+  },
+  {
+    "title": "Mug",
+    "price": 999,
+    "popular": false,
+    "rating": 5,
+    "img": "../assets/img/ng-mug.png"
+  },
+  {
+    "title": "Baby onesie",
+    "price": 1299,
+    "popular": false,
+    "rating": 3,
+    "img": "../assets/img/ng-onesie.png"
+  },
+  {
+    "title": "tote",
+    "price": 599,
+    "popular": true,
+    "rating": 5,
+    "img": "../assets/img/ng-tote.png"
+  }
+]
