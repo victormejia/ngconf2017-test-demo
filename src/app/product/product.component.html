@@ -1,0 +1,11 @@
+<div class="four wide column">
+  <img [src]="product.img" alt="">
+</div>
+<div class="twelve wide column">
+  <div class="ui large header">
+    <span class="product-title">{{product.title}}</span>
+    <span class="ui orange label" *ngIf="product.popular">Best Seller</span>
+  </div>
+  <div class="ui medium header">{{product.price}}</div>
+  <button class="ui red button">Add to Cart</button>
+</div>

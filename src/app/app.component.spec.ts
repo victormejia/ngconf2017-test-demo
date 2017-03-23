@@ -1,6 +1,17 @@
 import { TestBed, async } from '@angular/core/testing';
 import { NO_ERRORS_SCHEMA } from '@angular/core';
 import { AppComponent } from './app.component';
+import { ApiService } from './shared/api.service';
+import { Observable } from 'rxjs/Observable';
+import { Observer } from 'rxjs/Observer';
+
+class MockApiService {
+  getProducts() {
+    return Observable.create((observer: Observer<any>) => {
+      observer.next([]);
+    });
+  }
+}
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
@@ -8,19 +19,11 @@ describe('AppComponent', () => {
       declarations: [
         AppComponent
       ],
-      schemas: [NO_ERRORS_SCHEMA]
+      schemas: [NO_ERRORS_SCHEMA],
+      providers: [
+        { provide: ApiService, useClass: MockApiService }
+      ]
     }).compileComponents();
   }));
 
-  it('should create the app', async(() => {
-    const fixture = TestBed.createComponent(AppComponent);
-    const app = fixture.debugElement.componentInstance;
-    expect(app).toBeTruthy();
-  }));
-
-  it(`should have as title 'app works!'`, async(() => {
-    const fixture = TestBed.createComponent(AppComponent);
-    const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('app works!');
-  }));
 });
