@@ -26,6 +26,6 @@ describe('HeaderComponent', () => {
   it('should render a title', () => {
     const elem = fixture.debugElement.nativeElement;
 
-    expect(elem.querySelector('h1.header').innerHTML).toBe('ng2 storefront');
+    expect(elem.querySelector('h1.header').innerHTML).toBe('ng shop');
   });
 });
