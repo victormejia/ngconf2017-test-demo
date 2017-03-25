@@ -18,7 +18,7 @@ export class ApiService {
 
   getProduct(id: number) {
     return this.http.get(`${this.baseUrl}/products/${id}.json`)
-      .map((res: Response) => res.json())
+      .map((res: Response) => res.json());
   }
 
 

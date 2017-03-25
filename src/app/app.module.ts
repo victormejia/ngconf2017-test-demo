@@ -8,7 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { ProductGridComponent } from './product-grid/product-grid.component';
 import { ProductComponent } from './product/product.component';
 
-import { ApiService } from './shared/api.service'
+import { ApiService } from './shared/api.service';
 
 @NgModule({
   declarations: [
