@@ -1,6 +1,6 @@
 # ngconf2017-test-demo
 
-## Presentation: (https://ngtest-turbo.firebaseapp.com)[https://ngtest-turbo.firebaseapp.com]
+## Presentation: [https://ngtest-turbo.firebaseapp.com](https://ngtest-turbo.firebaseapp.com)
 
 Demo project used for "Turbocharge Your Angular Testing Workflow" at ng-conf 2017.
 
