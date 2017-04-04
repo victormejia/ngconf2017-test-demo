@@ -1,4 +1,8 @@
-# Ngconf2017TestDemo
+# ngconf2017-test-demo
+
+## Presentation: (https://ngtest-turbo.firebaseapp.com)[https://ngtest-turbo.firebaseapp.com]
+
+Demo project used for "Turbocharge Your Angular Testing Workflow" at ng-conf 2017.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
 
