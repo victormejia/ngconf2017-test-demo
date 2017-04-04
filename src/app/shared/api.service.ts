@@ -15,11 +15,4 @@ export class ApiService {
     return this.http.get(`${this.baseUrl}/products.json`)
       .map((res: Response) => res.json());
   }
-
-  getProduct(id: number) {
-    return this.http.get(`${this.baseUrl}/products/${id}.json`)
-      .map((res: Response) => res.json());
-  }
-
-
 }
